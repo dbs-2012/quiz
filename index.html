@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class = "start_btn">
+        <button>Start Quiz</button>
+    </div>
+    <div class="info_box">
+        <div class="info_title">
+            <span>Some Rules of The quiz</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will have only <span>15 seconds</span> per question</div>
+            <div class="info">2. Once you select your answer, you cannot deselect it</div>
+            <div class="info">3. You cannot select any optioin once time goes off</div>
+            <div class="info">4. You cannot exit from the quiz while you are playing</div>
+            <div class="info">5. You will get points on the basis of your correct answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <div class="quiz_box">
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+            <div class="timer">
+                <div class="time_text">Time left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span>What does HTML stand for?</span> -->
+            </div>
+            <div class="option_list">
+                <!-- <div class="option">
+                    <span>Hyper Text Markup Language</span>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Microprocessor Language</span>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Multiple Language</span>
+                </div>
+                <div class="option">
+                    <span>Hyper Tool Multiple Language</span>
+                </div> -->
+            </div>
+        </section>
+        <footer>
+            <div class="total_ques">
+                <!-- <span><p>2</p>Of<p>5</p>Questions</span> -->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+    <div class="result_box">
+        <div class="complete">You have completed the Quiz</div>
+        <div class="score">
+            <span>Sorry, you got only <p>2</p>Out Of <p>5</p></span>
+        </div>
+        <div class="buttons">
+            <button class="restart" id="restart-button">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+    <script src = "questions.js"></script>
+</body>
+</html>
